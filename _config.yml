@@ -141,7 +141,7 @@ code_badge:
 # excerpt_size: 350
 
 # Pagination setting
-paginate: 2
+paginate: 10
 permalink: /:categories/:title:output_ext
 
 # Disqus comments
