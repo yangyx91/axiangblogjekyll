@@ -24,10 +24,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
-copyright: Copyright © 2021-2022
+title: Axiang Blogger Docs
+email: yang@axiangblog.cn
+author: 象叔叔
+copyright: Copyright © 2021-2022 .
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -36,8 +36,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
-keywords: 1111111111111
-description: 11111111
+keywords: asp.net5,.net5,docs,web api,jekyll,azure,cloudflare,functions,blogger,blazor,microsoft365
+description: a blogger to write web docs or notes,such as azure、cloudflare supplier,and more than blazor、functions、api management、github pages、microsoft 365 developer popular web tools
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -115,11 +115,11 @@ yat:
 
 # Code badge setting
 # You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+code_badge:
+   enabled: "true"
+   color: "#fff"
+   background_color: "#ff4e00"
+   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
