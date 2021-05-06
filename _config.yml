@@ -138,7 +138,7 @@ code_badge:
 #     banner: "Your image url"
 
 # Excerpt size setting
-# excerpt_size: 350
+excerpt_size: 120
 
 # Pagination setting
 paginate: 10

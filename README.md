@@ -1,7 +1,9 @@
-﻿# 阿象博客 
+#Blogger
 
-#个人站点演示，使用了azure静态web应用
+#个人站点演示，使用了cloudflare pages
 
-#主题：jekyll
+#前端框架：jekyll
 
-#api调用：
+#主题：jekyll-theme-yat
+
+#api调用：无
