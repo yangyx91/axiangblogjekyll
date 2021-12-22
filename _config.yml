@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Axiang Blogger Docs
+title: 爱囤货的象叔叔_Docs
 email: yang#axiangblog.cn(replace '#' with @ )
 author: 象叔叔
 copyright: Copyright © 2021-2022 .
@@ -36,8 +36,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
-keywords: asp.net5,.net5,docs,web api,jekyll,azure,cloudflare,functions,blogger,blazor,microsoft365
-description: a blogger to write web docs or notes,such as azure、cloudflare supplier,and more than blazor、functions、api management、github pages、microsoft 365 developer popular web tools
+keywords: asp.net6,.net6,docs,web api,jekyll,azure,云开发,functions,云函数,blazor,microsoft365
+description: 聚焦云函数、azure、blazor、functions、api management、github pages、microsoft 365开发
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -138,7 +138,7 @@ code_badge:
 #     banner: "Your image url"
 
 # Excerpt size setting
-excerpt_size: 120
+excerpt_size: 130
 
 # Pagination setting
 paginate: 10
