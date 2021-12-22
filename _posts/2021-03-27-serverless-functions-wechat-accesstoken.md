@@ -5,7 +5,8 @@ date: 2021-03-27 21:13:27 +08:00
 author: 象叔叔
 layout: post
 permalink: /serverless-functions-wechat-accesstoken.html
-categories:云函数
+categories:
+- 云开发
 tags: 微信 云函数 云开发
 ---
 
