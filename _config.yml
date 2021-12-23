@@ -130,7 +130,7 @@ code_badge:
    - editor.html
    - tags.html
    - privacy.html
-   - about.md
+   - about.html
 
 # Page default value
 # defaults:
