@@ -28,13 +28,13 @@ title: 爱囤货的象叔叔_Docs
 email: yang#axiangblog.cn(replace '#' with @ )
 author: 象叔叔
 copyright: Copyright © 2021-2022 .
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# description: >- # this means to ignore newlines until "baseurl:"
+# Write an awesome description for your new site here. You can edit this
+# line in _config.yml. It will appear in your document head meta (for
+# Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.axiangblog.cn" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 keywords: asp.net6,.net6,docs,web api,jekyll,azure,云开发,functions,云函数,blazor,microsoft365
 description: 聚焦云函数、azure、blazor、functions、api management、github pages、microsoft 365开发
@@ -123,7 +123,7 @@ code_badge:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
- header_pages:
+header_pages:
    - index.html
    - archives.html
    - categories.html
