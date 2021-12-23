@@ -15,7 +15,7 @@ tags: 微信 云函数 云开发
 
 **官方介绍：**
 
-https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/access-token/auth.getAccessToken.html
+[https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/access-token/auth.getAccessToken.html](https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/access-token/auth.getAccessToken.html "https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/access-token/auth.getAccessToken.html")
 
 **准备工具：**
 
@@ -27,17 +27,17 @@ uniCloud服务空间【可选阿里云、腾讯云】
 
 1、新建一个云函数，其中请求URL：
 
-https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+[https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET](https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET")
 
-图片
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9GCBOx7tR282OvYg2WWhk5ibdPpmhF1ATgpSAkF627YVXDRzpibLo4vJGvAXSGhZduSSASQWF3ic6BMkrVT4ib8LqQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1 "图片")
 
 2、上传部署云函数，开启定时任务，条件公式：【cron:0 0 * * * *】，即每天整点执行，即每天执行12次。这样的调度模式，能及时更新小程序的Token凭据
 
-图片
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9GCBOx7tR282OvYg2WWhk5ibdPpmhF1ATtPKkq50yZAnTefm8vsPfy43OoRghZE7kkT4ic6WccteFhROtfvh6hsQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1 "图片")
 
 3、设计云数据库，例如appid、appsecret、accesstoken、小程序名称、小程序类型，都可以存入数据表，定时更新accesstoken字段。
 
-图片
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9GCBOx7tR282OvYg2WWhk5ibdPpmhF1ATP2kcgZwBibtqG9wPXg37ibkDTe5arUj6xWMquLiaaaqEXbLoLudYAaDBg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1 "图片")
 
 
 **历史囤货**
@@ -48,4 +48,4 @@ https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID
 
 [阿里/腾讯【云函数】真香：懒人版Node+定时搬运【必应每日一图】](http://mp.weixin.qq.com/s?__biz=MzI4MzA2OTg1Ng==&mid=2247485978&idx=2&sn=123b984607f02c9231475d66893b3abf&chksm=eb9116d5dce69fc32cb8eb50134627829f1155ec302121b4e57b74676365cdd8187f5f8ceff0&scene=21#wechat_redirect "阿里/腾讯【云函数】真香：懒人版Node+定时搬运【必应每日一图】")
 
-[查看原文](https://mp.weixin.qq.com/s?__biz=MzI4MzA2OTg1Ng==&mid=2247486053&idx=4&sn=378fb4ba3049bba6814de5b54102f1c3&scene=19#wechat_redirect "查看原文")
+【[阅读原文](https://mp.weixin.qq.com/s?__biz=MzI4MzA2OTg1Ng==&mid=2247486053&idx=4&sn=378fb4ba3049bba6814de5b54102f1c3&scene=19#wechat_redirect "阅读原文")】
