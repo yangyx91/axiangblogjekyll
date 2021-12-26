@@ -3,7 +3,7 @@ layout: post
 title:  "Build and start first blog!"
 date:   2021-04-22 14:22:27 +0800
 categories: jekyll
-author: Jeffrey
+author: 象叔叔
 ---
 Switch to a folder where you wish to store your sites configuration files,Execute the following command to build and serve your new site
 bundle exec `jekyll serve`

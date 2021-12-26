@@ -2,6 +2,7 @@
 layout: post
 title:  "install jekyll bundler!"
 date:   2021-04-22 14:22:27 +0800
+author: 象叔叔
 categories: jekyll
 ---
 We only cover RubyInstaller-2.4 and newer here. Older versions need to install the Devkit manually.

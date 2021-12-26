@@ -2,6 +2,7 @@
 layout: post
 title:  "Create First Jekyll Blog!"
 date:   2021-04-22 14:22:27 +0800
+author: 象叔叔
 categories: jekyll
 ---
 Switch to a folder where you wish to store your sites configuration files,Execute the following command to create a new Jekyll blog (change myblog to the name you wish the site to be)

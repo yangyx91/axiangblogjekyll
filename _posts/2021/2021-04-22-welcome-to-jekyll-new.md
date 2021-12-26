@@ -3,10 +3,9 @@ layout: post
 title:  "Welcome to Jekyll New!"
 date:   2021-04-22 14:22:27 +0800
 subheading: hello world!
-author: Jeffrey
+author: 象叔叔
 categories: jekyll
-banner: https://pan.axiangblog.com/20210330/90541130886843438f2b7a67b9778ad0.png
-tags: jekyll theme yat 云开发
+tags: jekyll 
 sidebar: []
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
